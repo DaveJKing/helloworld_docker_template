@@ -1,0 +1,6 @@
+version: "3"
+services:
+  helloworld:
+    image: “djking/hw”
+    ports:
+      - "8080:80"   # http port: Container port

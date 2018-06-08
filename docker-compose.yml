@@ -1,0 +1,7 @@
+version: "3"
+services:
+  helloworld:
+    build: .
+    ports:
+      - "8080:80"   # http port: Container port
+    
